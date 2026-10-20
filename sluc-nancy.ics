@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sluc-nancy-calendrier//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SLUC Nancy Basket
+X-WR-TIMEZONE:Europe/Paris
+X-WR-CALDESC:Tous les matchs du SLUC Nancy Basket (mis à jour automatiquem
+ ent)
+REFRESH-INTERVAL;VALUE=DURATION:PT3H
+X-PUBLISHED-TTL:PT3H
+BEGIN:VEVENT
+UID:fiba-135754@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261006T180000Z
+DTEND:20261006T200000Z
+SUMMARY:🏠 Nancy - BC Vienna 66-65 (FIBA Europe Cup)
+LOCATION:Palais des Sports Jean Weille\, Nancy
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135758@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261013T160000Z
+DTEND:20261013T180000Z
+SUMMARY:✈️ BC Parnu - Nancy 61-84 (FIBA Europe Cup)
+LOCATION:Pärnu Sports Hall\, Pärnu
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135762@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261020T180000Z
+DTEND:20261020T200000Z
+SUMMARY:🏠 Nancy - Nitra Blue Wings (FIBA Europe Cup)
+LOCATION:Palais des Sports Jean Weille\, Nancy
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135765@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261028T190000Z
+DTEND:20261028T210000Z
+SUMMARY:✈️ King Szczecin - Nancy (FIBA Europe Cup)
+LOCATION:Dom Sportu Arena\, Szczecin
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135767@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261103T190000Z
+DTEND:20261103T210000Z
+SUMMARY:🏠 Nancy - Keravnos BC (FIBA Europe Cup)
+LOCATION:Palais des Sports Jean Weille\, Nancy
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135769@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261111T180000Z
+DTEND:20261111T200000Z
+SUMMARY:✈️ BC Vienna - Nancy (FIBA Europe Cup)
+LOCATION:BC Vienna Arena\, Vienna
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135773@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261117T190000Z
+DTEND:20261117T210000Z
+SUMMARY:🏠 Nancy - BC Parnu (FIBA Europe Cup)
+LOCATION:Palais des Sports Jean Weille\, Nancy
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135777@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261209T170000Z
+DTEND:20261209T190000Z
+SUMMARY:✈️ Nitra Blue Wings - Nancy (FIBA Europe Cup)
+LOCATION:Nitra City Sports Hall\, Nitra
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135780@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261215T190000Z
+DTEND:20261215T210000Z
+SUMMARY:🏠 Nancy - King Szczecin (FIBA Europe Cup)
+LOCATION:Palais des Sports Jean Weille\, Nancy
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fiba-135782@sluc-nancy-calendrier
+DTSTAMP:20261020T085710Z
+DTSTART:20261222T170000Z
+DTEND:20261222T190000Z
+SUMMARY:✈️ Keravnos BC - Nancy (FIBA Europe Cup)
+LOCATION:Costas Papaellinas Arena\, Nicosia
+DESCRIPTION:FIBA Europe Cup – Groupe D
+URL:https://www.fiba.basketball/en/events/fiba-europe-cup-26-27/games
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
