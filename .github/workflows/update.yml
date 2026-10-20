@@ -16,20 +16,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python3 build_calendar.py
-      - name: Publier si le calendrier a changé
+      - name: Mettre à jour et publier
+        env:
+          ORIGINE: GitHub
         run: |
           git config user.name "sluc-calendrier-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add sluc-nancy.ics cache.json
-          # DTSTAMP change à chaque exécution : on ne commite que si un match a changé
-          if git diff --cached -U0 | grep -E '^[+-][A-Z]' | grep -vE '^[+-]DTSTAMP' | grep -q .; then
-            git commit -m "Mise à jour des matchs $(date -u +%F)"
-            git push
-          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt 2160000 ]; then
-            # GitHub coupe les tâches planifiées après 60 jours sans activité (intersaison)
-            git commit --allow-empty -m "Vérification $(date -u +%F) : aucun changement"
-            git push
-          else
-            echo "Aucun changement"
-          fi
+          bash mettre-a-jour.sh
